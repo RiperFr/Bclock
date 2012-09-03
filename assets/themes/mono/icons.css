@@ -1,0 +1,13 @@
+.mono .iconClock { background-image : url("1343735992_clock_blue.png") }
+
+.mono .tb:active.iconClock { background-image : url("1343737422_clock_green.png") }
+
+.mono .iconPause { background-image : url("1343736216_button-pause_blue.png") }
+
+.mono .iconPlay { background-image : url("1343736156_button-play_blue.png") }
+
+.mono .iconStop { background-image : url("1343736237_button-stop_blue.png") }
+
+.mono .iconReset { background-image : url("1343739118_button-rotate-ccw_blue.png") }
+
+.mono .iconRemove { background-image : url("1343739515_button-cross_blue.png") }

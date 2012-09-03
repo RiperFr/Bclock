@@ -1,0 +1,106 @@
+﻿
+.digitalClock{
+    font-family: DSDigital, sans-serif ;
+    font-size: 10em
+}
+/** Options **/
+.digitalClock.display24h .ampm{
+    display:none;
+}
+.digitalClock.noMilli .milliseconds{
+    display:none;
+}
+.digitalClock.noSeconds .seconds,.digitalClock.noSeconds .dotsSeconds{
+    display:none;
+}
+
+/**Structure **/
+.digitalClock>div{
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+
+.digitalClock .ampm{
+    font-size: 0.5em
+}
+.digitalClock .milliseconds{
+    font-size: 0.2em
+}
+.digitalClock .dots{
+    margin-left:-0.3em;
+    margin-right:-0.3em;
+}
+
+/** animations **/
+.digitalClock .dots{
+    animation-name: dotsdots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-name: dotsdots;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+
+    -moz-animation-name: dotsdots;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+
+    -o-animation-name: dotsdots;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+    -o-animation-timing-function: ease-in-out;
+
+    font-size:0.8em;
+    /*font-family:impact;*/
+}
+@-webkit-keyframes dotsdots {
+	0%   {
+	    opacity: 0;
+	}
+	50%   {
+	    opacity: 1;
+	 }
+	100% {
+	    opacity: 0;
+	}
+}
+@-o-keyframes dotsdots {
+	0%   {
+	    opacity: 0;
+	}
+	50%   {
+	    opacity: 1;
+	 }
+	100% {
+	    opacity: 0;
+	}
+}
+@-moz-keyframes dotsdots {
+	0%   {
+	    opacity: 0;
+	}
+	50%   {
+	    opacity: 1;
+	 }
+	100% {
+	    opacity: 0;
+	}
+}
+@keyframes  dotsdots {
+	0%   {
+	    opacity: 0;
+	}
+	50%   {
+	    opacity: 1;
+	 }
+	100% {
+	    opacity: 0;
+	}
+}

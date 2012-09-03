@@ -1,0 +1,51 @@
+.mono .tb {
+    display                            : block;
+    margin                             : 0;
+    padding                            : 0;
+    border                             : none;
+    background                         : none;
+    background-size                    : 100%;
+    background-repeat                  : no-repeat;
+    background-position                : center center;
+    font-size                          : 0.03px;
+    color                              : transparent;
+    overflow                           : hidden;
+
+    transition-property                : all;
+    transition-duration                : 50ms;
+    transition-timing-function         : ease;
+    /* Firefox 4 */
+    -moz-transition-property           : all;
+    -moz-transition-duration           : 50ms;
+    -moz-transition-timing-function    : ease;
+    /* Safari and Chrome */
+    -webkit-transition-property        : all;
+    -webkit-transition-duration        : 50ms;
+    -webkit-transition-timing-function : ease;
+    /* Opera */
+    -o-transition-property             : all;
+    -o-transition-duration             : 50ms;
+    -o-transition-timing-function      : ease;
+}
+
+.mono .tb:active,
+.mono .active .tb,
+.mono .tb.active {
+    /* background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(167,220,223,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background-size : 90% ;
+}
+
+.mono .tb /*.medium*/ {
+    height : 64px;
+    width  : 64px
+}
+
+.mono .tb.small {
+    height : 28px;
+    width  : 28px
+}
+
+.mono .tb.big {
+    height : 128px;
+    width  : 128px
+}

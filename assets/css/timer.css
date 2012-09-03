@@ -1,0 +1,69 @@
+.timer{
+
+    text-align: left;
+
+    font-size:5em;
+}
+.timer ul, .timer li {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.timer .numbers{
+    margin-left:20px;
+    display:inline-block;
+    white-space: nowrap;
+}
+.timer .numbers> div{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    font-family: Digital-7Mono, sans-serif ;
+    text-align:center;
+    margin-left:-18px;
+}
+.timer .numbers .dots,
+.timer .numbers .dot{
+    width:25px;
+}
+.timer .numbers> .dixiemes{
+    font-size: 0.5em;
+}
+
+.timer .actions button{
+
+}
+.timer .laps {
+    display:none;
+}
+
+.timer .actions button{
+    display:none;
+}
+
+.timer .actions {
+    display:inline-block;
+    position:absolute;
+     margin-left:20px;
+    margin-top:-10px;
+
+}
+
+.timer .actions>button{
+    margin:0;
+    padding:0;
+
+}
+
+.timer .actions .start,
+.timer .actions .pause,
+.timer .actions .reset,
+.timer .actions .remove,
+.timer .actions .stop
+{
+    display:inline-block;
+    width:50px;
+    /*height:50px;*/
+    margin-left:-10px;
+    margin-right:-10px;
+}
